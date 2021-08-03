@@ -6,6 +6,7 @@ public class Principal {
         int numero;
 
         Scanner entrada = new Scanner(System.in);
+        System.out.println("Digite um número: ");
         numero = entrada.nextInt();
         System.out.println(numero + "");
 
