@@ -4,7 +4,6 @@ import java.util.Scanner;
 public class Principal {
     public static void main(String[] args) {
         int numero;
-
         Scanner entrada = new Scanner(System.in);
         System.out.println("Digite um número: ");
         numero = entrada.nextInt();
