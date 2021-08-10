@@ -6,6 +6,7 @@ public class principal {
         Scanner entrada = new Scanner(System.in);
         int numero = entrada.nextInt();
         System.out.println("O somatorio é: " + somatorio(numero));
+        System.out.println("O somatorio é: " + somaRecursiva(numero));
     }
 
     private static int somatorio(int numero) {
@@ -14,5 +15,13 @@ public class principal {
             soma += i;
         }
         return soma;
+    }
+
+    public static int somaRecursiva(int numero){
+        if(numero > 1){
+            return numero + somaRecursiva(numero - 1);
+        }else{
+            return numero;
+        }
     }
 }
