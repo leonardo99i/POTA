@@ -1,7 +1,5 @@
-public class contagemRegrassiva(int n){
-    contagemRegrassiva(10) {
-
-    }
+public class contagemRegrassiva{
+    contagemRegrassiva(10);
 }
 
 
