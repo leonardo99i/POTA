@@ -9,7 +9,7 @@ public class principal {
         long inicioRecursivo = System.currentTimeMillis();
         System.out.println(fibonnaciRecursivo(numero));
         long finalRecursivo = System.currentTimeMillis();
-        System.out.println("Tempo em Milisegundos do Fibonnaci Recursivo = " + (finalRecursivo - inicioRecursivo));
+        System.out.println("Tempo em ,milisegundos do Fibonnaci Recursivo = " + (finalRecursivo - inicioRecursivo));
 
     }
 
