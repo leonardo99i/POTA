@@ -1,6 +1,6 @@
 public class principal {
     public static void main(String[] args) {
-        int vetor[] = {9, 15, 7, 18, 23, 1, 75, 14, 54, 17, 21};
+        int[] vetor = {9, 15, 7, 18, 23, 1, 75, 14, 54, 17, 21};
         int indice = buscaSequencial(vetor, 21);
         System.out.println(indice);
     }
